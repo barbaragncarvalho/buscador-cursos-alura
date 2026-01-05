@@ -1,0 +1,21 @@
+{
+    "name": "barbara/buscador-cursos",
+    "description": "Projeto para buscar cursos da Alura.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Barbara\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bárbara",
+            "email": "barbarakawanyg@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10",
+        "symfony/dom-crawler": "^8.0",
+        "symfony/css-selector": "^8.0"
+    }
+}
